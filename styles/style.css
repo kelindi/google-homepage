@@ -31,7 +31,8 @@ input {
 	font-size: 17px;
 	border: 0px;
 	margin-left: 20px;
-	width: 500px;
+	max-width: 500px;
+	width: 85.9%;
 	outline: none;
 }
 
