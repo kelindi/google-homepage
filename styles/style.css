@@ -1,0 +1,36 @@
+body{
+    background-color: white ;
+}
+
+#logo{
+    width: 272px;
+    height: auto;
+    display:block;
+    margin:auto;
+    position: relative;
+}
+
+
+.search{
+    width: 600px;
+    height: 40px;
+    background-color:#F1F3F4;
+    color: red;
+    border-color: red;
+    border-radius:22px;
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+}
+input{
+    background-color:#F1F3F4;
+	font-family: "Roboto", "arial", "sans-serif";
+    font-size: 17px;
+	border: 0px;
+	margin-left: 20px;
+	width: 540px;
+}
+#mic{
+	margin:auto
+}
+
