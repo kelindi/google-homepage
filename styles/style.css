@@ -1,36 +1,151 @@
-body{
-    background-color: white ;
+body {
+	background-color: white;
+	font-family: "Roboto", "arial", "sans-serif";
+	cursor: default;
 }
 
-#logo{
-    width: 272px;
-    height: auto;
-    display:block;
-    margin:auto;
-    position: relative;
+#logo {
+	width: 272px;
+	height: auto;
+	display: block;
+	margin: auto;
+	position: relative;
+	padding-top: 109px;
+	padding-bottom: 33px;
+	padding-bottom: 33px;
 }
 
-
-.search{
-    width: 600px;
-    height: 40px;
-    background-color:#F1F3F4;
-    color: red;
-    border-color: red;
-    border-radius:22px;
-	margin:auto;
-	display:flex;
+.search {
+	width: 582px;
+	height: 44px;
+	color: red;
+	border-color: red;
+	border: 1px solid #dfe1e5;
+	border-radius: 22px;
+	margin: auto;
+	display: flex;
 	flex-direction: row;
 }
-input{
-    background-color:#F1F3F4;
-	font-family: "Roboto", "arial", "sans-serif";
-    font-size: 17px;
+
+input {
+	font-size: 17px;
 	border: 0px;
 	margin-left: 20px;
-	width: 540px;
-}
-#mic{
-	margin:auto
+	width: 500px;
+	outline: none;
 }
 
+#mic {
+	margin: auto;
+}
+
+.words {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+}
+
+#topbar {
+	display: flex;
+	flex-direction: row;
+	height: 30px;
+	width: auto;
+	margin-top: 16px;
+
+}
+
+.topleft {
+	display: inline-flex;
+	height: 15.5px;
+	line-height: 30px;
+}
+
+.topright {
+	display: inline-flex;
+	margin-left: auto;
+	height: 15.5px;
+	line-height: 30px;
+	padding-right: 30px;
+}
+
+#about {
+	margin-left: 15px;
+	vertical-align: middle;
+
+}
+
+#store {
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+#gmail {
+	line-height: 30px;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+#images {
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+#apps {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+#signin {
+	font-weight: bold;
+	color: white;
+	height: 30px;
+	background-color: #4185F4;
+	padding-right: 12px;
+	padding-left: 12px;
+	border-radius: 2px;
+	border: 1px;
+	border-color: rgb(66, 133, 244);
+	font-size: 13px;
+	vertical-align: middle;
+}
+
+#extrasearch {
+	display: flex;
+	justify-content: center
+}
+
+.es {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(242, 242, 242);
+	color: rgb(95, 99, 104);
+	border: 1px;
+	border-radius: 4px;
+	display: block;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+	outline: none;
+}
+
+textarea:focus,
+input: focus {
+	outline: none;
+}
+
+
+.words:hover {
+	text-decoration: underline;
+}
+
+.search:hover {
+	box-shadow: 0px 0px 7px -2px rgba(0, 0, 0, 0.4);
+}
+
+.es:hover {
+	color: black;
+}
