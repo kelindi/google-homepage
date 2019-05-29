@@ -1,4 +1,4 @@
-# [LIVE PAGE](https://shantorian.github.io/google-homepage/)
+# Demo: [live page](https://shantorian.github.io/google-homepage/)
 ## Copycat Google Home Page
 A webpage styled to look like the Google Landing Page
 
