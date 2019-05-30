@@ -2,6 +2,15 @@ body {
 	background-color: white;
 	font-family: "Roboto", "arial", "sans-serif";
 	cursor: default;
+	margin: 0px;
+	display: block;
+	height:100%;
+	display:flex;
+	flex-direction: column;
+}
+
+html{
+	margin:0px;
 }
 
 #logo {
@@ -9,7 +18,6 @@ body {
 	height: auto;
 	display: block;
 	margin: auto;
-	position: relative;
 	padding-top: 109px;
 	padding-bottom: 33px;
 	padding-bottom: 33px;
@@ -43,6 +51,7 @@ input {
 .words {
 	font-size: 13px;
 	font-family: arial, sans-serif;
+	font-weight: 400px;
 }
 
 #topbar {
@@ -50,7 +59,7 @@ input {
 	flex-direction: row;
 	height: 30px;
 	width: auto;
-	margin-top: 16px;
+	margin-top: 5px;
 
 }
 
@@ -111,7 +120,8 @@ input {
 
 #extrasearch {
 	display: flex;
-	justify-content: center
+	justify-content: center;
+	margin-top:30px;
 }
 
 .es {
@@ -129,7 +139,6 @@ input {
 	display: block;
 	margin-left: 15px;
 	margin-right: 15px;
-	margin-top: 30px;
 	outline: none;
 }
 
@@ -139,7 +148,7 @@ input: focus {
 }
 
 
-.words:hover {
+.bn:hover,.words:hover {
 	text-decoration: underline;
 }
 
@@ -148,5 +157,58 @@ input: focus {
 }
 
 .es:hover {
-	color: black;
+	color: black;<a class = "bn">Privacy</a>
+		<a class = "bn">Terms</a>
+		<a class = "bn">Settings</a>
 }
+
+#bottomnav{
+	background-color: rgb(242, 242, 242);
+	height: 40px;
+	width:100%;
+	display: flex;
+}
+
+.bn{
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400px;
+	color:rgb(95, 99, 104);
+	margin:15px;
+}
+
+#bleft{
+	margin-right:auto;
+	display:flex;
+}
+
+#bright{
+	display: flex;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:40px;   /* Height of the footer */
+}
+
+
+
+
+
+
+
+
+
+
+
+
