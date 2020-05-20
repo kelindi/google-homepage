@@ -5,4 +5,4 @@ A webpage styled to look like the Google Landing Page
 * The basic structure of a HTMLdocument
 * The CSS Box model and CSS flex model
 
-## Demo: [live page](kelindi.ca/google-homepage/)
+## Demo: [live page](http://kelindi.ca/google-homepage/)
