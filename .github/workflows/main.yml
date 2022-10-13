@@ -1,0 +1,16 @@
+#/.github/workflows/main.yml
+on: [push]
+
+jobs:
+  pin_to_ipfs:
+    runs-on: ubuntu-latest
+    name: Publish
+    steps:
+    - uses: actions/checkout@v2
+    - name: IPFS Publish
+      id: IPFS
+      uses: kelindi/estuary-upload-action@v0.1.3-alpha
+      with:
+        access_token: ${{ secrets.ACCESS_TOKEN }} #Required
+        path_to_add: 'your/path/' #Optional (Default: './')
+        pin_name: 'WWW-MySite' #Optional (Default: user/respository-commithash)
